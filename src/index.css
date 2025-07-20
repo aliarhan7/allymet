@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+body {
+  //background-color: white;
+  //font-family: 'Arial', sans-serif;
+}
+
+@theme {
+  --color-first: #000000;
+  --color-sec: #3D0000;
+  --color-third: #950101;
+  --color-forth: #FF0000;
+}
+
+@layer base {
+  h3 {
+    @apply text-base font-medium text-forth;
+  }
+  p {
+    @apply text-[14px] sm:text-[14.5px] text-forth;
+  }
+}
+
+@layer components {
+  .card {
+    @apply m-10 rounded-lg bg-third px-6 py-8 shadow-xl ring-1 ring-forth;
+  }
+  .header {
+    @apply w-full h-15 bg-white;
+  }
+  .hero {
+    @apply relative w-full h-250 overflow-hidden
+  }
+}
+
+@utility flex-header {
+  @apply flex flex-row justify-between items-center;
+}
+
+ 
