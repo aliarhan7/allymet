@@ -1,12 +1,11 @@
 import React from 'react'
-import Header from './components/Header'
 import Products from './pages/Products'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Factory from './pages/Factory'
 import Referances from './pages/Referances'
 import Home from './pages/Home'
+import {Route, Routes, BrowserRouter} from 'react-router-dom';
 
 
 

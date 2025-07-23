@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Bar from './BarMenu';
 import BarButton from './BarButton';
 import BarMenu from './BarMenu';
 

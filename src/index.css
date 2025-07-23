@@ -7,9 +7,10 @@ body {
 
 @theme {
   --color-first: #000000;
-  --color-sec: #3D0000;
-  --color-third: #950101;
-  --color-forth: #FF0000;
+  --color-sec: #320A6B; 
+  --color-third: #065084;
+  --color-forth: #0F828C;
+  --color-fifth: #78B9B5;
 }
 
 @layer base {
