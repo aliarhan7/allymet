@@ -3,18 +3,18 @@ import React from 'react';
 const categories = [
   { id: 1, title: "YALITIMLI KAPI & PENCERE SİSTEMLERİ", image: "/path/to/image1.jpg" },
   { id: 2, title: "YALITIMSIZ KAPI & PENCERE SİSTEMLERİ", image: "/path/to/image2.jpg" },
-  { id: 3, title: "YALITIMLI SÜRME SİSTEMLER", image:""},
-  { id: 4, title: "YALITIMSIZ SÜRME SİSTEMLER", image:""},
-  { id: 5, title: "GİYDİRME CEPHE SİSTEMİ", image:""},
-  { id: 6, title: "İÇ MEKAN SİSTEMLERİ", image:""},
-  { id: 7, title: "KATLANIR KAPI SİSTEMLERİ", image:""},
-  { id: 8, title: "HEMYÜZ KAPI SİSTEMİ", image:""}
+  { id: 3, title: "YALITIMLI SÜRME SİSTEMLER", image:"/path/to/image3.jpg"},
+  { id: 4, title: "YALITIMSIZ SÜRME SİSTEMLER", image:"/path/to/image4.jpg"},
+  { id: 5, title: "GİYDİRME CEPHE SİSTEMİ", image:"/path/to/image5.jpg"},
+  { id: 6, title: "İÇ MEKAN SİSTEMLERİ", image:"/path/to/image6.jpg"},
+  { id: 7, title: "KATLANIR KAPI SİSTEMLERİ", image:"/path/to/image7.jpg"},
+  { id: 8, title: "HEMYÜZ KAPI SİSTEMİ", image:"/path/to/image8.jpg"}
   // Asistal sitesindeki diğer kategorileri buraya ekleyin
 ];
 
 const Product = () => {
   return (
-    <div className="">
+    <div>
       <div className='w-full h-55 bg-gradient-to-r from-first to-red-600  flex items-center'>
         <h1 className="text-3xl font-bold mb-10 ml-6 text-white">Products</h1>
       </div>
