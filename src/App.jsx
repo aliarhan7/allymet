@@ -5,7 +5,9 @@ import Contact from './pages/Contact'
 import Factory from './pages/Factory'
 import Referances from './pages/Referances'
 import Home from './pages/Home'
+import SubCategory from './pages/SubCategory'
 import {Route, Routes, BrowserRouter} from 'react-router-dom';
+
 
 
 
@@ -16,6 +18,7 @@ const App = () => {
       <Route path="/" element={<Home/>}/>
       <Route path="/products" element={<Products/>}/>
       <Route path="/products/:categoryId" element={<Products/>}/>
+      <Route path="/products/:categoryId/:subCategoryId" element={<SubCategory/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/factory" element={<Factory/>}/>
